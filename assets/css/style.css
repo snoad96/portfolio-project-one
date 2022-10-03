@@ -53,11 +53,34 @@ h1, h2 {
     border-bottom: 1px ridge #E70E02;
 }
 
-/* hero image */
+/* hero image and cover text */
 
 #hero-image {
     height: 600px;
     width: auto;
-    
+    object-fit: contain;
     background: url(../images/hero-image.jpg) no-repeat center center;
+    
 }
+
+#cover-text {
+    color: white;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    
+    width: 300px;
+    height: 200px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+
+    background-color: dimgrey;
+
+    bottom:50px;
+    left: 250px;
+
+    position: absolute;
+}
+
