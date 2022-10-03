@@ -6,6 +6,21 @@
     border: none;
 }
 body {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 350;
+    color: #E70E02;
 } 
+
+/* heading and logo */
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #A02003;
+}
+
+#logo {
+    float:left;
+    font-size: 300%;
+}
