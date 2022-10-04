@@ -106,6 +106,8 @@ h1, h2 {
     position: absolute;
 }
 
+/* lists and information*/
+
 #circuit {
     height: 600px;
 }
@@ -114,14 +116,42 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+    background-color:  #fae9e9;
+    font-size: x-large;
+}
+
+.left-about-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20px;
+  
+} 
+
+.right-about-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin: 20px;
+    
+}
+
+.right-about h3 {
+    text-align: left;
 }
 
 #right-about {
     padding-top: 3px;
+    padding-bottom: 3px;
     width: 33%;
     float: right;
     background-color: yellow;
+}
+
+hr {
+    border-top: 1px solid #A02003;
+    width: 100%;
+    margin: 1px 0;
 }
 
 #center {
@@ -132,7 +162,8 @@ h1, h2 {
 }
 
 ol.a {
-    list-style-image: url(<i class="fa-light fa-person-running"></i>);
+   /* list-style-image: url(<i class="fa-light fa-person-running"></i>); */
     background: #fae9e9;
-    padding: 20px;
+    padding-left: 20px;
+    float: left;
 }
