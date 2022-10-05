@@ -47,200 +47,82 @@ a {
    .menu li {
     padding: .4rem 1rem;
    }
-   
+
 /* heading and logo */
 
 h1, h2 {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     letter-spacing: 3px;
-    color: #A02003;
+    color: #EB5E28;
 }
-
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
 #logo {
     float:left;
     font-size: 300%;
     margin-left: 75px;
 }
-
 #menu {
     font-size: 150%;
     letter-spacing: 3px;
 }
-
 #menu, #logo {
     line-height: 75px;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
 }
-
 #menu a {
     text-decoration: none;
     color: #A02003;
 }
-
 #menu a:hover {
     border-bottom: 1px ridge #E70E02;
 }
-
 .active {
     border-bottom: 1px ridge #E70E02;
-}
 
 /* hero image and cover text */
 
 #hero-image {
-    height: 600px;
-    width: auto;
-    object-fit: contain;
-    background: url(../images/hero-image.jpg) no-repeat center center;
-    
+    background: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+    background-size: cover;
+    height: 50vh;
 }
-
-#cover-text {
+.cover-text {
+  float: left;
     color: white;
     font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
-    
-    width: 300px;
-    height: 200px;
-
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-bottom: 100px;
-
-    background-color: rgb(74, 74, 74);
-
-    bottom:50px;
-    left: 250px;
-
-    position: absolute;
+    width: 50%;
+    padding: 1rem 1.5rem;
+    background-color: #252422;
+    position: relative;
+    display: inline-block;
 }
-
-#cover-text2 {
+.cover-text2 {
+    vertical-align: top;
     color: white;
     font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
-    
-    width: 300px;
-    height: 200px;
-
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-bottom: 100px;
-
-    background-color: rgb(74, 74, 74);
-
-    bottom:50px;
-    right: 250px;
-
-    position: absolute;
+    width: 32%;
+    padding: 1rem 1.5rem;
+    position: relative;
+    display: inline-block;
 }
-
-/* headings and text*/
-
-#circuit {
-    height: 600px;
-}
-
-#left-about {
-    padding-top: 30px;
-    padding-bottom: 3px;
-    width: 33%;
-    float: left;
-    background-color:  #fae9e9;
-    font-size: large;
-    line-height: 175%;
-}
-
-.left-about-heading {
-    width: 60%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 20px;
-  
-} 
-
-.right-about-heading {
-    width: 60%;
-    line-height: 20px;
-    clear: both;
-    margin: 20px;
-    
-}
-
-.right-about h3 {
-    text-align: left;
-}
-
-#right-about {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    width: 33%;
-    float: right;
-    background-color: yellow;
-}
-
-#center {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
-}
-
 hr {
     border-top: 1px solid #A02003;
     width: 100%;
     margin: 1px 0;
 }
-
-/* lists */
-
-ol.a {
-    background: #fae9e9;
-    padding-left: 20px;
-    float: left;
-}
-
-ol.b {
-     background: #fae9e9;
-     padding-left: 20px;
-     float: right;
- }
-
- /* images */
-
-
-
-#center-container {
-    background: url('../images/woman-plank.jpg') no-repeat center center;
-    height: 100%;
-    width: 100%;
- 
- /*  
- padding: 30px;
- height: 300px;
- width: 300%;
- border-style: solid;
- border-color: black;
- border-width: 1px;
- margin: 0 auto; */
- }
-
- #center-img-bg {
-     padding: 10px;
-     height: 400px;
-     width: 100%;
-     border-style: solid;
-     border-color: black;
-     border-width: 1px;
-     margin: 0 auto;
- 
-  /*   background: url('../images/woman-plank.jpg') no-repeat center center ;
-     height: 100%; */
- }
