@@ -8,7 +8,7 @@ The three main points on this project are the perfect ways for anyone from any b
 #### __Interval.__
 #### __Fartlek training.__
 
-![Responsive Pages](../portfolio-project-one/assets/images/project-1-screen.PNG "Multi Device Generator")
+![Responsive Pages](./assets/images/project-1-screen.PNG "Multi Device Generator")
 
 # Features
 
