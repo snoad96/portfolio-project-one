@@ -103,6 +103,14 @@ h1, h2 {
   height: 50vh;
 }
 
+#fartlek-image {
+    background: url(../images/fartlek1.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+    background-size: cover;
+    height: 50vh;
+}
+
   .cover-text {
     float: left;
     color: white;
