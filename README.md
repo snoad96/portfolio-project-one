@@ -51,3 +51,41 @@ Each page has its own respective image, keeping with the style and theme of the 
 ## Features Left to Implement
 - A questionnaire for the user to find out what type is preferred/more enjoyable.
 - A page for links for good music playlists the user can train to.
+
+## Testing
+
+- I have tested the website on Chrome and Safari.
+- I have tested the site on different screen sizes using mobile devices and Chrome Developer Tools.
+- I have given the link to the site to different users to try on different devices.
+- I have tested the links for all pages.
+- The video does not play without user input.
+
+## Bugs
+
+- I struggled with screen sizing with the images as different sizes would change the image placement significantly.
+- I fixed a bug where the video would not stay placed where it was meant to, this took some time.
+- I overcomplicated the placement of the images initially, I had to remove a lot of rules and make it more simple.
+
+## Validator Testing
+
+#### HTML
+- There were no errors found using the W3C HTML Validator.
+
+#### CSS 
+- There were no errors found using the W3C CSS Validator.
+
+## Accessibility
+- I have confirmed that the site has a good score through the use of the Chrome Lighthouse Tool.
+
+![Lighthouse](./assets/images/lighthouse-score.PNG "Chrome Lighthouse Tool Score")
+
+### Unfixed Bugs
+- All bugs have been fixed.
+
+## Deployment
+- The site is deployed by the use of GitHub Pages.
+    - Using the GitHub Repository, click on the Settings tab.
+    - From the source section menu, select the Master Branch.
+    - A link will then be provided to the complete website.
+
+ 
