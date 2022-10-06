@@ -94,7 +94,6 @@ h1, h2 {
     background-size: cover;
     height: 50vh;
 }
-
 #interval-image {
   background: url(../images/interval1.jpg);
   background-repeat: no-repeat;
@@ -102,7 +101,6 @@ h1, h2 {
   background-size: cover;
   height: 50vh;
 }
-
 #fartlek-image {
     background: url(../images/fartlek1.jpg);
     background-repeat: no-repeat;
@@ -110,14 +108,12 @@ h1, h2 {
     background-size: cover;
     height: 50vh;
 }
-
 #video {
     position:relative;
     size: contain;
     height: 50vh;
     width: 100%;
 }
-
   .cover-text {
     float: left;
     color: white;
