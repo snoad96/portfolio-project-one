@@ -21,7 +21,7 @@ li {
 }
 /* navbar styling starts */
 .navbar {
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
