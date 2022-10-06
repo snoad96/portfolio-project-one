@@ -88,4 +88,15 @@ Each page has its own respective image, keeping with the style and theme of the 
     - From the source section menu, select the Master Branch.
     - A link will then be provided to the complete website.
 
+    The Link to the Webpage is at the beginning of this page.
+
+## Credits, Content and Media
+- The images were taken from [Unsplash](https://unsplash.com/).
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/icons).
+- The Video was taken from Youtube from [Mother Father Runner](https://www.youtube.com/watch?v=J6q5FWIvl-c).
+- I recieved a lot of help going back through the Code Institute Videos, but also had a bit of help looking at [W3schools tutorials](https://www.w3schools.com/html/default.asp).
+
+
+
+
  
