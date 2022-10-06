@@ -88,21 +88,21 @@ h1, h2 {
 }
 /* hero image cover text and video */
 #hero-image {
-    background: url(../images/hero-image.jpg);
+    background: url(../images/hero-image.jpg) alt="Man running at night";
     background-repeat: no-repeat;
     background-position: right bottom, left top;
     background-size: cover;
     height: 50vh;
 }
 #interval-image {
-  background: url(../images/interval1.jpg);
+  background: url(../images/interval1.jpg) alt="Cones for a circuit";
   background-repeat: no-repeat;
   background-position: right bottom, left top;
   background-size: cover;
   height: 50vh;
 }
 #fartlek-image {
-    background: url(../images/fartlek1.jpg);
+    background: url(../images/fartlek1.jpg) alt="Man running";
     background-repeat: no-repeat;
     background-position: right top left bottom ;
     background-size: cover;
