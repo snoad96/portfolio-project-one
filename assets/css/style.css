@@ -104,13 +104,13 @@ h1, h2 {
 #fartlek-image {
     background: url(../images/fartlek1.jpg);
     background-repeat: no-repeat;
-    background-position: right top left bottom ;
+    background-position: inherit;
     background-size: cover;
     height: 50vh;
 }
 #video {
-    position:relative;
-    size: contain;
+    position: relative;
+    resize: both ;
     height: 50vh;
     width: 100%;
 }
@@ -157,8 +157,6 @@ footer {
 .social-footer {
   padding: 1rem;
   background: #4c9e9e;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   justify-content: space-between; 
 }
