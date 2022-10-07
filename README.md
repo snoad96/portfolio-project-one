@@ -83,13 +83,16 @@ Each page has its own respective image, keeping with the style and theme of the 
 - All bugs have been fixed.
 
 ## Deployment
--On the Gitpod site, 
+
+#### GitPod
+- On the Gitpod site, 
      After making a few changes or writing more code on CSS or HTML files, go to the Terminal
      - Then deploy "git add ."
      - Deploy, "git commit -m "Brief description of what has changed/been added"
      - After any major code or changes, deploy "git push" 
      this pushes it to the GitHub Repository and can be seen on the files.
-     
+
+#### GitHub     
 - The site is deployed by the use of GitHub Pages.
     - Using the GitHub Repository, click on the Settings tab.
     - From the source section menu, select the Master Branch.
